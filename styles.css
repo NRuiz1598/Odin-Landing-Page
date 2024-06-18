@@ -73,5 +73,17 @@ img {
     word-wrap: break-word;
 }
 
+.content {
+    flex: 1 0 auto;
+}
 
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 28px;
+    color: #F9FAF8;
+    flex-shrink: 0;
+}
