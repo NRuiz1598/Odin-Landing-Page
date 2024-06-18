@@ -54,7 +54,6 @@ button {
     color: #F9FAF8;
 }
 
-
 .hero-container{
     display: flex;
     gap: 32px;
@@ -73,10 +72,11 @@ img {
     word-wrap: break-word;
 }
 
-.content {
+.info {
+    display: flex;
+    flex-direction: column;
     flex: 1 0 auto;
 }
-
 
 .footer {
     display: flex;
@@ -87,3 +87,5 @@ img {
     color: #F9FAF8;
     flex-shrink: 0;
 }
+
+
