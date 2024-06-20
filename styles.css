@@ -15,7 +15,7 @@ body {
 .header-logo.hero-header{
     font-size: 24px;
     color: #F9FAF8;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .header-links {
@@ -48,9 +48,9 @@ button {
     color: #E5E7EB;
 }
 
-.text{
+.hero-text{
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 800;
     color: #F9FAF8;
 }
 
@@ -73,8 +73,46 @@ img {
 }
 
 .info {
+    display: flex;
+    flex-direction: column;
     flex: 1 0 auto;
+    align-items: center;
+    
 }
+
+.text, .quote{
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.text {
+    font-weight: 800;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.blockquote {
+    display: flex;
+    background-color: #E5E7EB ;
+    margin: auto;
+    padding: 52px;
+    width: auto;
+    flex-wrap: wrap;
+
+    
+}
+
+
+.quote-footer{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+
+
 
 .footer {
     display: flex;
@@ -85,5 +123,6 @@ img {
     color: #F9FAF8;
     flex-shrink: 0;
 }
+
 
 
