@@ -1,12 +1,13 @@
 html, body {
     margin: auto;
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto', sans-serif;
+     font-family: 'Roboto', sans-serif;
 }
 .header-container {
     background-color: #1F2937;
@@ -17,7 +18,7 @@ body {
 .header-logo, .hero-header{
     font-size: 24px;
     color: #F9FAF8;
-    font-weight: 400;
+    font-weight: 800;
 }
 
 .header-links {
@@ -97,22 +98,24 @@ img {
 .text {
     font-weight: 800;
     margin-top: 32px;
+    
 }
 
 
 
 .quote {
     font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .blockquote {
     background-color: #E5E7EB ;
     margin: auto;
-    padding: 16px;
-    display: flex;
-    align-items: flex-start;
-    flex-wrap:wrap;
-    justify-content: flex-end;
+    padding: 64px;
 }
 
 
@@ -120,6 +123,8 @@ img {
 .quote-footer{
     font-size: 24px;
     font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
 }
 
 
@@ -136,7 +141,7 @@ img {
 
 .box-container {
     display: flex;
-    margin: 52px;
+    margin: 36px;
 }
 
 
@@ -165,10 +170,10 @@ img {
 .hero-small {
     background-color: #3882F6;
     border-radius: 8px;
-    margin: 52px;
+    margin: 36px;
     padding: 42px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 56px;
+    gap: 64px;
 }
