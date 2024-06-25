@@ -1,18 +1,20 @@
 html, body {
-    margin: 0 auto;
-    height: 100%;
+    margin: auto;
+    height: 100vh;
 }
 
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 .header-container {
     background-color: #1F2937;
     padding: 0 16px;
+
 }
 
-.header-logo.hero-header{
+.header-logo, .hero-header{
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 400;
@@ -38,15 +40,22 @@ button {
     background-color: #3882F6 ;
     border: none;
     color: white;
-    padding: 8px 16px;
+    padding: 8px 24px;
     margin: 4px 2px;
     border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.hero-button {
+    border: 1px solid #fff;
 }
 
 .small {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
 }
+
 
 .hero-text{
     font-size: 48px;
@@ -56,21 +65,18 @@ button {
 
 .hero-container{
     display: flex;
-    gap: 56px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin-top: 32px;
     padding: 32px;
 }
 
 img {
-    width: 400px;
+    width: 500px;
     height: auto;
 }
 
 .hero {
     padding: 52px;
-    word-wrap: break-word;
 }
 
 .info {
@@ -78,7 +84,7 @@ img {
     flex-direction: column;
     flex: 1 0 auto;
     align-items: center;
-    
+    justify-content: center;
 }
 
 .text, .quote{
@@ -90,7 +96,7 @@ img {
 
 .text {
     font-weight: 800;
-    margin: 16px;
+    margin-top: 32px;
 }
 
 
@@ -100,19 +106,20 @@ img {
 }
 
 .blockquote {
-    display: flex;
     background-color: #E5E7EB ;
     margin: auto;
-    padding: 32px;
-    width: auto;
-    flex-wrap: wrap;    
+    padding: 16px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap:wrap;
+    justify-content: flex-end;
 }
+
 
 
 .quote-footer{
     font-size: 24px;
     font-weight: bold;
-    margin-left: auto;
 }
 
 
@@ -129,7 +136,7 @@ img {
 
 .box-container {
     display: flex;
-    gap: 32px;
+    margin: 52px;
 }
 
 
@@ -138,14 +145,30 @@ img {
     border-radius: 8px;
     width: 125px;
     height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
 }
 
 .wrapper {
+    max-width: 150px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 8px;
-    padding: 16px;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+
 }
 
-
+.hero-small {
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin: 52px;
+    padding: 42px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 56px;
+}
